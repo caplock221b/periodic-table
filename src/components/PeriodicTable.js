@@ -8,7 +8,7 @@ const PeriodicTable = () => {
 
     useEffect(() => {
         let s = []
-        data.elements.map(e => {
+        data.elements.forEach(e => {
             if(!s.includes(e.category)){
                 s.push(e.category)
             }
