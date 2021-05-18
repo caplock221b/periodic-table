@@ -33,19 +33,6 @@ body {
   text-align: center;
 }
 
-.columns {
-  display: flex;
-  gap: 4.05em;
-}
-
-.columns > div {
-  width: 18px;
-  height: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .table {
   padding-top: 1em;
   display: grid;
